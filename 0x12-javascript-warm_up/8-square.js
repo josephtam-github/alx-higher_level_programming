@@ -2,7 +2,7 @@
 const process = require('process');
 if (parseInt(process.argv[2])) {
   const limit = parseInt(process.argv[2]);
-  let row = 'X'.repeat(limit);
+  const row = 'X'.repeat(limit);
   for (let i = 0; i < limit; i++) {
     console.log(row);
   }
